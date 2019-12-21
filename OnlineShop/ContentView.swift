@@ -47,6 +47,7 @@ struct ContentView: View {
                 }
                 .navigationBarTitle(Text("Shop Items"), displayMode: .inline)
             }
+            .accessibility(identifier: "contentView_view")
             .padding()
         }
     }

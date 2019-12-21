@@ -16,6 +16,7 @@ struct CartView: View {
         VStack {
             Text("Cart")
                 .font(.largeTitle)
+                .accessibility(identifier: "cart_view")
             Spacer()
             HStack {
                 HStack {
