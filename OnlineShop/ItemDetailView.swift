@@ -26,7 +26,7 @@ struct ItemDetailView: View {
                         .foregroundColor(.green)
                         .accessibility(identifier: "itemPrime_\(item.prime)")
                 } else {
-                    /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
+                    EmptyView()
                 }
             }
             Divider()
