@@ -17,7 +17,7 @@
     {
         "id": "E39EEDC5-55C2-4E05-B682-98F7AE981ABB",
         "name": "iPhone Pro",
-        "description": "some description",
+        "description": "Some description of iPhone Pro and technical details.",
         "price": 1200,
         "prime": false
     },

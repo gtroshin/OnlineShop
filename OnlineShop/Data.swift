@@ -1,9 +1,10 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Helpers for loading images and data.
-*/
+//
+//  Data.swift
+//  OnlineShop
+//
+//  Created by Georgii Troshin on 12/21/19.
+//  Copyright © 2019 Georgii Troshin. All rights reserved.
+//
 
 import UIKit
 import SwiftUI
