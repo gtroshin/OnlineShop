@@ -19,3 +19,7 @@ Command line:
     make test
 
 Or simply open Xcode and run tests via Test Navigator.
+
+## CI
+- Configuration [file for GitHub Actions](.github/workflows/swift.yml).
+- CI web [view is here](https://github.com/gtroshin/OnlineShop/actions).
