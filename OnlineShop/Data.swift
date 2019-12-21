@@ -4,6 +4,7 @@
 //
 //  Created by Georgii Troshin on 12/21/19.
 //  Copyright © 2019 Georgii Troshin. All rights reserved.
+//  Copyright © 2019 Apple Inc. All rights reserved.
 //
 
 import UIKit
