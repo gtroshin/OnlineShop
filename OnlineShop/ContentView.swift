@@ -23,6 +23,7 @@ struct ContentView: View {
                             .multilineTextAlignment(.trailing)
                             .padding(.trailing)
                     }
+                    .accessibility(identifier: "primeOnlyToggle")
                     ForEach(itemData.items) { item in
                         if !self.itemData.showPrimeOnly || item.prime {
                             NavigationLink(
@@ -39,6 +40,7 @@ struct ContentView: View {
                                     }
                                 }
                             }
+                            .accessibility(identifier: "navigationLink_\(item.name)")
                         }
                     }
                 }

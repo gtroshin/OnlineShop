@@ -19,10 +19,12 @@ struct ItemDetailView: View {
             HStack {
                 Text(item.name)
                     .font(.headline)
+                    .accessibility(identifier: "itemName_\(item.name)")
                 if item.prime {
                     Image(systemName: "timer")
                         .imageScale(.large)
                         .foregroundColor(.green)
+                        .accessibility(identifier: "itemPrime_\(item.prime)")
                 } else {
                     /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
                 }
@@ -31,7 +33,11 @@ struct ItemDetailView: View {
             Text(item.description)
                 .font(.caption)
             Divider()
-            Text("Price: \(item.price)")
+            HStack {
+                Text("Price:")
+                Text("\(item.price)")
+                    .accessibility(identifier: "itemPrice_\(item.price)")
+            }
             Spacer()
             Button(action: {
                 self.showCart = true
@@ -43,6 +49,7 @@ struct ItemDetailView: View {
                     .background(Color.blue)
                     .cornerRadius(15)
             }
+            .accessibility(identifier: "addToCartButton")
             .sheet(isPresented: $showCart) {
                 CartView(item: self.item).environmentObject(self.itemData)
             }

@@ -16,22 +16,28 @@ struct CartView: View {
         VStack {
             Text("Cart")
                 .font(.largeTitle)
+            Spacer()
             HStack {
                 HStack {
                     Text(item.name)
                         .font(.headline)
+                        .accessibility(identifier: "itemName_\(item.name)")
                     if item.prime {
                         Image(systemName: "timer")
                             .imageScale(.large)
                             .foregroundColor(.green)
+                            .accessibility(identifier: "itemPrime_\(item.prime)")
                     } else {
                         /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
                     }
                 }
-                
-                Text("Total price: \(item.price)")
+                HStack {
+                    Text("Total price:")
+                    Text("\(item.price)")
+                        .accessibility(identifier: "itemPrice_\(item.price)")
+                }
             }
-            
+            Spacer()
         }
         .padding()
     }
