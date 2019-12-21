@@ -20,6 +20,8 @@ Command line:
 
 Or simply open Xcode and run tests via Test Navigator.
 
+Pro tip: Use `Clone or download` button in GitHub Web and select `Open in Xcode`.
+
 ## CI
 - Configuration [file for GitHub Actions](.github/workflows/swift.yml).
 - CI web [view is here](https://github.com/gtroshin/OnlineShop/actions).
