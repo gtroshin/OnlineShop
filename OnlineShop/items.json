@@ -1,0 +1,80 @@
+[
+    {   
+        "id": "BAA592A2-DCCD-41E1-8750-29AA0D1F9007",
+        "name": "iPad Air",
+        "description": "Some description of iPad Air and technical details.",
+        "price": 150,
+        "prime": true
+        
+    },
+    {
+        "id": "20CF17C5-5E7E-4F97-AA80-7D779F626F29",
+        "name": "iPhone 11",
+        "description": "Some description of iPhone 11 and technical details.",
+        "price": 120,
+        "prime": false
+    },
+    {
+        "id": "E39EEDC5-55C2-4E05-B682-98F7AE981ABB",
+        "name": "iPhone Pro",
+        "description": "some description",
+        "price": 1200,
+        "prime": false
+    },
+    {
+        "id": "0AA15B5A-9129-42A8-A0CB-B32F3C0D1AF2",
+        "name": "iPhone Pro Max",
+        "description": "Some description of iPhone Pro Max and technical details.",
+        "price": 1600,
+        "prime": true
+    },
+    {
+        "id": "18CD150A-C736-43E5-9047-8B76E8AD8B88",
+        "name": "iMac Pro",
+        "description": "Some description of iMac Pro and technical details.",
+        "price": 6099,
+        "prime": true
+    },
+    {
+        "id": "42445D4E-E613-431E-827F-0D36415FBF9C",
+        "name": "Mac Pro",
+        "description": "Some description of Mac Pro and technical details.",
+        "price": 50999,
+        "prime": false
+    },
+    {
+        "id": "9FCA43D1-8D1B-4AF9-91DD-2C985607E23E",
+        "name": "iPhone 5s",
+        "description": "Some description of iPhone 5s and technical details.",
+        "price": 99,
+        "prime": false
+    },
+    {
+        "id": "8273F7CD-E032-4607-BE7A-A90E58A9A06E",
+        "name": "AirPods",
+        "description": "AirPods deliver effortless, all-day audio. AirPods Pro feature Active Noise Cancellation. Both include free engraving. Find the right ones for you.",
+        "price": 350,
+        "prime": false
+    },
+    {
+        "id": "B0EFFCFA-A827-4370-BC29-C8F6FDA340A3",
+        "name": "AirPods",
+        "description": "AirPods deliver effortless, all-day audio. AirPods Pro feature Active Noise Cancellation. Both include free engraving. Find the right ones for you.",
+        "price": 300,
+        "prime": true
+    },
+    {
+        "id": "B7303189-FB1B-4EC7-8097-F3F0B0728B72",
+        "name": "AirPods Pro",
+        "description": "AirPods Pro are the only. in-ear headphones with. Active Noise Cancellation that continuously adapts to the geometry of your ear and the fit of the ear tips — blocking out the world so you can focus on what you're listening to. An outward-facing microphone detects external sound.",
+        "price": 400,
+        "prime": true
+    },
+    {
+        "id": "9B2E3944-ED9C-402B-95C7-210747E62FC9",
+        "name": "AirPods Pro",
+        "description": "AirPods Pro are the only. in-ear headphones with. Active Noise Cancellation that continuously adapts to the geometry of your ear and the fit of the ear tips — blocking out the world so you can focus on what you're listening to. An outward-facing microphone detects external sound.",
+        "price": 450,
+        "prime": false
+    }
+]
