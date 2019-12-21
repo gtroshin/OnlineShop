@@ -12,7 +12,7 @@
 - Make: `brew install make`
 
 ## Run Tests
-Before running tests via command line, check `destination` in MAkefile and that is available on your Mac by running `instruments -s devices`.
+Before running tests via command line, check `destination` in [Makefile](Makefile) and that runtime and simulator are available on your Mac by running `instruments -s devices`.
 
 Command line:
 
