@@ -35,8 +35,9 @@ struct ContentView: View {
                                         Image(systemName: "timer")
                                             .imageScale(.large)
                                             .foregroundColor(.green)
+                                            .accessibility(identifier: "itemPrime_\(item.prime)")
                                     } else {
-                                        /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
+                                        EmptyView()
                                     }
                                 }
                             }
