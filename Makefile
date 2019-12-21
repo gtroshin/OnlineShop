@@ -1,4 +1,4 @@
-destination = "platform=iOS Simulator,OS=13.2,name=iPhone 11"
+destination = "platform=iOS Simulator,OS=13.2.2,name=iPhone 11"
 projectName = OnlineShop
 
 test:
