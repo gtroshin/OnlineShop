@@ -1,2 +1,21 @@
+# OnlineShop iOS app
+
+![Swift 5.1](https://img.shields.io/badge/Swift-5.1-orange.svg)
+![Xcode 11](https://img.shields.io/badge/Xcode-11-orange.svg?style=flat)
+![SwiftUI Support](https://img.shields.io/badge/SwiftUI-iOS-orange?style=flat)
+![CI Status](https://github.com/gtroshin/OnlineShop/workflows/Swift/badge.svg)
+
+## Requirements
+- iOS 13.2+
+- Xcode 11.2+
+- Brew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Make: `brew install make`
+
 ## Run Tests
+Before running tests via command line, check `destination` in MAkefile and that is available on your Mac by running `instruments -s devices`.
+
+Command line:
+
     make test
+
+Or simply open Xcode and run tests via Test Navigator.
